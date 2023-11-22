@@ -1,0 +1,201 @@
+/* ================= Imports =================== */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+/* ================= Generales =================== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 590;
+
+}
+
+/* ================= Cabecero =================== */
+.cabecero{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.nav-google{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    font-size: 14px;
+    
+}
+
+.nav-google i{
+    scale:1.6
+}
+
+.nav-google a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-google .options, .profile{
+    cursor: pointer;
+    color: gray;
+    border-radius: 40px;
+    padding: 5px;
+    
+}
+
+.options:hover, .profile:hover{
+    box-shadow: 0px 0px 0px 1px rgb(247, 245, 245); 
+    background-color: rgb(238, 234, 234); 
+}
+
+/* ================= Container =================== */
+
+.container{
+    width: 100%;
+    height: 500px;
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+.section-logo{
+    margin: -26px;
+}
+
+.container .imagen-google{
+    scale: 0.356;   
+   
+}
+
+.section-buscador{
+    margin: -11.2%;
+    padding: 20px;
+    position: relative;
+}
+
+.section-buscador .search{
+    padding: 15px;
+    width: 580px;
+    border: 1px solid;
+    border-color: rgb(219, 219, 219);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.search:hover {   
+    box-shadow: 0.5px .5px 3px 1px rgb(226, 225, 225);    
+}
+
+.section-buscador .lupa{
+
+    position: absolute;
+    top: 41%;
+    left: 6%;
+    scale: 0.8;
+    color: gray;
+}
+
+.section-buscador .camera{
+    position: absolute;
+    top: 41%;
+    right: 6.5%;
+    scale: 1.1;
+    color: gray;
+    cursor: pointer;
+}
+
+/* ================= Botones =================== */
+
+.btn-search{  
+    padding: 30px;
+    position: absolute;
+    bottom: 4%;
+    display: flex;
+    gap: 15px;  
+}
+
+.btn-buscar{
+    padding: 11px 23px;
+    background-color: rgb(245, 247, 247);
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.btn-suerte{
+    padding: 11px 19px;
+    background-color: rgb(245, 247, 247);
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.btn-buscar:hover, .btn-suerte:hover{   
+    box-shadow: 0px 0px 0px 1px rgb(226, 225, 225);
+    cursor: pointer;
+}
+
+
+/* ================= Footer =================== */
+
+.section-mexico{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(241, 241, 239);
+    display: flex;
+    border-bottom: 1px solid;
+    border-color: rgb(219, 219, 219);;
+    margin-top: 300px;
+    align-items: center;
+
+}
+.section-mexico nav{
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    font-size: 15px;
+    gap: 30px;
+}
+
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(241, 241, 239);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer nav{
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    gap: 30px;
+        
+}
+
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+
